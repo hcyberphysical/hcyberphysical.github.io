@@ -1,0 +1,52 @@
+# Site Settings
+title: H Cyber Physical
+description: Professional cyber-physical systems solutions and services
+email: hcyberphysical@gmail.com
+url: https://hcyberphysical.github.io
+baseurl: ""
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Theme Settings (using custom theme)
+theme: null
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Services
+    url: /services
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
+
+# Social Links (customize as needed)
+social:
+  github: hcyberphysical
+  linkedin: ""
+  twitter: ""
+
+# Future Features (placeholders for payment/download integration)
+payment_enabled: false
+downloads_enabled: false
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .git
+  - .gitignore
+  - README.md
+
